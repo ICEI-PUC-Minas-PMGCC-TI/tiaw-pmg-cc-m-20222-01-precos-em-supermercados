@@ -56,8 +56,6 @@ Os membros do grupo são:
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 O consumidor brasileiro presenciou no segundo trimetres de 2022, um queda repentina no seu poder comprar. Essa teve como origem o aumento repentino dos preços dos combustiveis e principalmente dos produtos basicos no mercado, que surgem das incertezas economicas pós Covid-19 e politicas do ano eleitoral. Esse aumento repentino dos preços assusta o consumidor, forçando-o a reduzir os itens de seu carrinho e buscar novas formas de economia. Pensando nisso, o trabalho em questão busca solucionar essa problematica através da construção de um Software Web.   
 
 ## Objetivos
