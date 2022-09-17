@@ -63,6 +63,7 @@ O consumidor brasileiro presenciou no segundo trimetres de 2022, um queda repent
 >Desenvolver um software web para auxiliar clientes a localizarem produtos mais baratos em mercados.
 
 >Ajudar o consumidor a reduzir as despesas mostrando os melhores preços.
+
 >conceder visibilidade aos minimercados.
 
 
