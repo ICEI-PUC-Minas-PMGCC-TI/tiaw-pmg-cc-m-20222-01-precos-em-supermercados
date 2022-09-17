@@ -5,17 +5,17 @@ Preço em supermercados
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciência da computação
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Os membros do grupo são:
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+* Henrique Temponi Maia
+* Jerson Vitor de Paula Gomes
+* João Paulo de Castro Markiewicz
+* Lucas Randazzo
+* Wallace Freitas Oliveira
 
 # Estrutura do Documento
 
@@ -89,19 +89,9 @@ Preço em supermercados
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O que impulsionou esse trabalho foi a instabilidade da economia local e internacional sobre os preços de produtos em 
+supermercados apresentando uma ferramenta em modelo web para a melhor busca dos produtos desejados para consumidores 
+que desejam controlar melhor suas finanças com base nas nossas pesquisas [TODO]
 
 ## Público-Alvo
 
