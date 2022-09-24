@@ -133,7 +133,10 @@ que desejam controlar melhor suas finanças com base nas nossas pesquisas
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](imaages/../images/persona.png)
+> ![Marcia](imaages/../images/personas/Marcia.jpg)
+>![Rubbens](imaages/../images/personas/Rubens.jpg)
+>![Felipe](imaages/../images/personas/Felipe.jpg)
+>![Gisele](imaages/../images/personas/Gisele.jpg)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
