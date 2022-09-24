@@ -154,8 +154,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que usuários tenham listas de compras cadastradas | ALTA |
+|RF-002| Permitir que usuários visualizem melhores opções de compra das listas cadastradas | ALTA |
+|RF-003| Permitir que usuários auxiliem na atualização dos dados de preço | ALTA |
+|RF-004| Permitir que usuários avaliem os mercados | MÉDIA |
+|RF-005| Permitir que usuários saibam dos preços em tempo real | MÉDIA |
+|RF-006| Permitir que usuários realizem filtragem de mercados em relação a tempo, preço e avaliação geral | MÉDIA | 
+|RF-007| Notificar usuario em relação a ofertas | BAIXA | 
+|RF-008| Permitir usuário a verificar se mercado trabalha com produto especifico   | BAIXA |
+|RF-009| Permitir que usuários compartilhem em familia sua lista | BAIXA |
+|RF-010| Permitir que usuários regatem ofertas no app | BAIXA |
 
 
 ### Requisitos não Funcionais
