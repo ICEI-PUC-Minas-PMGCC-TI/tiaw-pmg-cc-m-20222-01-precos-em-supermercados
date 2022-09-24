@@ -138,9 +138,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Marcia  | Encontrar os melhores preços em supermercados           | Economizar dinheiro               |
 |Marcia | Passar o minimo de tempo fazendo compras | Tomar conta dos filhos |
-|Rubens       | Ter melhor noção dos preços ao fazer compras                 | Adquirir apartamento proprio |
+|Marcia | Saber se um mercado tem determinado produto | Para evitar de ir e perder a viagem |
+|Rubens | Ter melhor noção dos preços ao fazer compras                 | Adquirir apartamento proprio |
+|Rubens | Poder criar e compartilhar uma lista de compras com a familia  | Manter organizada as compras e saber o que está faltando |
 |Felipe | Saber melhores ofertas na região | Conquistar indepêndencia financeira |
+|Felipe | Saber a avaliação e distância do mercado | Poder assegurar a qualidade e o tempo que será gasto |
 |Giselle | Conseguir ter mais poder de compra | Economizar seu dinheiro para investir |
+|Giselle | Saber de ofertas sempre que surgir | Poder aproveitar as ofertas e comprar mais barato |
 
 ## Requisitos
 
