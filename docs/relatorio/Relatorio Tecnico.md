@@ -136,19 +136,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+|Marcia  | Encontrar os melhores preços em supermercados           | Economizar dinheiro               |
+|Marcia | Passar o minimo de tempo fazendo compras | Tomar conta dos filhos |
+|Rubens       | Ter melhor noção dos preços ao fazer compras                 | Adquirir apartamento proprio |
+|Felipe | Saber melhores ofertas na região | Conquistar indepêndencia financeira |
+|Giselle | Conseguir ter mais poder de compra | Economizar seu dinheiro para investir |
 
 ## Requisitos
 
