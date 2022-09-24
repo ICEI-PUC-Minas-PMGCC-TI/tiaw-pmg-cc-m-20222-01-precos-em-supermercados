@@ -113,15 +113,19 @@ que desejam controlar melhor suas finanças com base nas nossas pesquisas
 ## Personas e Mapas de Empatia
 
 **MARCIA**
+
 ![Marcia](imaages/../images/personas/Marcia.jpg)
 
 **RUBENS**
+
 ![Rubbens](imaages/../images/personas/Rubens.jpg)
 
 **FELIPE**
+
 ![Felipe](imaages/../images/personas/Felipe.jpg)
 
 **GISELLE**
+
 ![Gisele](imaages/../images/personas/Gisele.jpg)
 
 
