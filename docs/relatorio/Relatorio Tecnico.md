@@ -131,11 +131,17 @@ que desejam controlar melhor suas finanças com base nas nossas pesquisas
 > - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
 > 
 > 
-> **Exemplo de Persona**
+> **MARCIA**
 > 
 > ![Marcia](imaages/../images/personas/Marcia.jpg)
+>
+>**RUBENS**
 >![Rubbens](imaages/../images/personas/Rubens.jpg)
+>
+>**FELIPE**
 >![Felipe](imaages/../images/personas/Felipe.jpg)
+>
+>**GISELLE**
 >![Gisele](imaages/../images/personas/Gisele.jpg)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
