@@ -250,7 +250,8 @@ Como mecanismo de versionamento de codigo e controle de versão será ultilizado
 
 A divisão de papéis realizada pelo grupo se dividiu do seguinte modo, mas não se limitando a tais:</br>
 
-|  Sprint 1 - 08/08/2022 - 25/09/2022|
+
+**Sprint 1 | 08/08/2022 - 25/09/2022**
 |  Datas  | Resumo Atividades  | Responsavel | Papel Desempenhando |
 |------|-----------------------------------------|----|----| 
 |19/09 - 25/09| Relatorio/ Desing Thinking/ Desing Site  | Henrique Temponi Maia |  Desenvolvedor |
@@ -258,6 +259,15 @@ A divisão de papéis realizada pelo grupo se dividiu do seguinte modo, mas não
 |19/09 - 25/09| Desing Thinking/ Personas/ Ideação | João Paulo de Castro Markiewicz | Desenvolvedor |
 |19/09 - 25/09| Desing Thinking/ Apresentação/ Ideação | Lucas Randazzo | Desenvolvedor |
 |19/09 - 25/09| Relatorio/ Wireframes/ Suporte | Wallace Freitas Oliveira | Desenvolvedor |
+
+**Sprint 2 | 26/09/2022 - 16/10/2022**
+|  Datas  | Resumo Atividades  | Responsavel | Papel Desempenhando |
+|------|-----------------------------------------|----|----| 
+|26/09 - 16/10| ------------------  | Henrique Temponi Maia |  Desenvolvedor |
+|26/09 - 16/10| ------------------ | Jerson Vitor de Paula Gomes | Scrum Master |
+|26/09 - 16/10| ------------------ | João Paulo de Castro Markiewicz | Desenvolvedor |
+|26/09 - 16/10| ------------------ | Lucas Randazzo | Desenvolvedor |
+|26/09 - 16/10| ------------------ | Wallace Freitas Oliveira | Desenvolvedor |
 
 
 ## Ferramentas
@@ -268,6 +278,7 @@ A divisão de papéis realizada pelo grupo se dividiu do seguinte modo, mas não
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-01-precos-em-supermercados | 
 |Hospedagem do site | - | - | 
 |Protótipo Interativo | Figma | https://www.figma.com/proto/pNMEjs30f7pcrKevjxIjK0/Pre%C3%A7os-de-supermercados?node-id=1%3A15&scaling=min-zoom&page-id=1%3A7&starting-point-node-id=1%3A15 |
+|Divisão de Tarefas | Trello | https://trello.com/b/WQFgiD5G/melhor-pre%C3%A7o |
 |Ferramenta de diagramação | Figma | https://www.figma.com |
 |Editor de código | Visual Studio Code | https://code.visualstudio.com/ |
 |Ferramenta de comunicação | Whatsapp | https://www.whatsapp.com/ |
