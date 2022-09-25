@@ -206,35 +206,35 @@ A tela de enviar nota busca receber do usuario sua nota fiscal para alimentar o 
 
 ## Wireframes
 
-**LOGIN**
+**LOGIN**</br>
 Tela de Login para acessar contas cadastradas.</br>
 ![LOGIN](imaages/../images/Wireframes%20e%20Layout/Login.png)
 >
-**CADASTRO**
+**CADASTRO**</br>
 Tela de Cadastro para novos usuários.</br>
 ![CADASTRO](imaages/../images/Wireframes%20e%20Layout/Cadastro.png)
 >
-**PESQUISA PREÇOS/ INCIO**
+**PESQUISA PREÇOS/ INCIO**</br>
 Tela inicial do site, onde os usuários poderão verificar os preços de itens selecionados e mercados mais proximos, além de promoções</br>
 ![INICIO](imaages/../images/Wireframes%20e%20Layout/PesquisarPre%C3%A7o.png)
 >
-**LISTAS**
+**LISTAS**</br>
 Tela de listas criadas, onde pode ser verificada os melhores preços para cada item já presente na lista em mercados selecionados.</br>
 ![INICIO](imaages/../images/Wireframes%20e%20Layout/Listas.png)
 >
-**CRIAR LISTA**
+**CRIAR LISTA**</br>
 Tela de criar lista, oferece a possibilidade de criar uma nova lista.</br>
 ![CRIAR LISTA](imaages/../images/Wireframes%20e%20Layout/CriarLista.png)
 >
-**SOBRE**
+**SOBRE**</br>
 Tela sobre, tela explicativa sobre quem é a Melhor Preço e qual sua finalidade no mercado.</br>
 ![SOBRE](imaages/../images/Wireframes%20e%20Layout/Sobre.png)
 >
-**Enviar Nota**
+**Enviar Nota**</br>
 Tela Enviar Nota, oferece ao usuario a possibilidade de cooperar com a rede, alimentando o nosso banco de dados, a partir da nota fiscal emitida.</br>
 ![ENVIAR NOTA](imaages/../images/Wireframes%20e%20Layout/EnviarNota.png)
 >
-**Enviar Nota**
+**PERFIL**</br>
 Tela Perfil, nessa o usuario pode verificar todas informações que temos acesso, além de personalizar sua experiência.</br>
 ![ENVIAR NOTA](imaages/../images/Wireframes%20e%20Layout/Perfil.png)
 
