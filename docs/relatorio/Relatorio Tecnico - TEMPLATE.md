@@ -199,7 +199,7 @@ A tela de enviar nota busca receber do usuario sua nota fiscal para alimentar o 
 **DESKTOP**
 
 ![USERFLOWDESKTOP](imaages/../images/UserFlow/UserFlowDesktop_400.png)
-
+>
 **MOBILE**
 
 ![USERFLOWMOBILE](imaages/../images/UserFlow/UserFlowMobile_400.png)
@@ -207,12 +207,16 @@ A tela de enviar nota busca receber do usuario sua nota fiscal para alimentar o 
 ## Wireframes
 
 **LOGIN**
-Tela de Login para acessar contas cadastradas.
+Tela de Login para acessar contas cadastradas.</br>
 ![LOGIN](imaages/../images/Wireframes%20e%20Layout/Login.png)
-
+>
 **CADASTRO**
-Tela de Cadastro para novos usuários.
-![CADASTRO](imaages/../images/UserFlow/UserFlowMobile_400.png)
+Tela de Cadastro para novos usuários.</br>
+![CADASTRO](imaages/../images/Wireframes%20e%20Layout/Cadastro.png)
+>
+**PESQUISA PREÇOS/ INCIO**
+Tela inicial do site, onde os usuários poderão verificar os preços de itens selecionados e mercados mais proximos, além de promoções</br>
+![CADASTRO](imaages/../images/Wireframes%20e%20Layout/Cadastro.png)
 
 
 
