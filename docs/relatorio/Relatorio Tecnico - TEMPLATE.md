@@ -1,21 +1,21 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Melhor Preço
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciência da computação
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Os membros do grupo são:
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+* Henrique Temponi Maia
+* Jerson Vitor de Paula Gomes
+* João Paulo de Castro Markiewicz
+* Lucas Randazzo
+* Wallace Freitas Oliveira
 
 # Estrutura do Documento
 
@@ -51,111 +51,81 @@
   - [Registros de Testes](#registros-de-testes)
 - [Referências](#referências)
 
-
 # Introdução
+Imagine-se no seguinte cenário, você acabou de receber o salário e decide ir ao mercado realizar a sua compra mensal, enquanto seleciona os itens de seu carrinho é supreendido por um funcionário alterando o preço de um produto que acaba de pega, tudo certo é uma caracterisca comum do mercado, exceto pelo fato que aquele mesmo item já havia sido remarcado mais cinco vezes naquele dia. Esse cenário hipotético pode parecer absurdo para os mais jovens, no entanto, os que viveram o final da década de 80 se lembram bem.
+
+A hiperinflação brasileira foi um enorme problema político-econômico vivenciado pela população brasileira na década 80, a inflação acumulada já estava na casa do milhões e o poder de compra era reduzido pela metada a cada dia. Uma ida rapida ao mercado era motivo de trauma, já que os preços eram atualizados uma, duas, três ou mais vezes no mesmo dia, tornando os mercados um verdadeiro campo de batalha dos brasileiros em busca de aproveitar as ofertas, afim de garantir ao menos o essencial com o pouco dinheiro que ainda lhe restavam no bolso.
+
+Esse clima de pânico foi substituído pelo alívio de poder saber exatamente o quanto gastaria no mercado, criado após a melhora econômica proporcionada com implementação do Plano Real (1994). No entanto, nos ultimos anos, alguns acontecimentos tem nos levado a relembrar desse período caotico, seja nos protestos de 2014, na greve dos caminhoneiros (2018) e agora mais recente na pandemia da COVID-19 (2020-21) seguida pela alta generalizada dos preços dos combustíveis e commodities agrícolas em consequência da Guerra da Ucrânia.
+
+Esses picos de variação nos preços dos mercados assuta os jovens e trazem o trauma do passado novamente a memória dos que vivenciaram a hiperinflação de 80, levando ambos a temerem o caos e a planejarem melhor seu orçamento, em busca de economizar para o cenário incerto dos próximos anos.
+
+Nesse sentido, a Melhor Preço em seu trabalho busca auxiliar os brasileiros nessa nova demanda orçamentária.     
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O consumidor brasileiro presenciou nos ultimos anos uma perda consideravel do seu poder de compra. Essa teve como origem diversos fatores políticos e economicos nacionais e internacionais, o que tem levado todos a realizarem mudanças no orçamento e padrão de compra.
+Segundo dados do IBGE para o período de 5 anos (2017 - 2022), a inflação acumulada é de 37,5% (JUN/22), e as projeções de mercado para os proximos 3 anos indicam um reajuste de mais 15% (FOCUS 09/22). Todo esse cenário ecônomico aliado ao clima de incertezas ocasionado após a COVID-19 e a questões politicas do ano eleitoral cooperam para que o consumidor brasileiro sinta-se pressionado em uma simples ida ao mercado, tendo de realizar comparações de preços frequentes entre mercados e a retirar itens de menor prioridade de seus carrinhos de compra afim de economizar.
 
 ## Objetivos
+Em busca de auxilar o brasileiro na nova demanda de realização de compras e a economizar mais. A Melhor Preço visa entregar ao consumidor uma facilitação no momento de saber o preço dos produtos, e os mercados que melhor atenderá suas necessidades naquele instante.
+Focando nos seguintes objetivos:
 
-......  COLOQUE AQUI O SEU TEXTO ......
+* Desenvolver um Software Web para auxiliar clientes a localizarem produtos mais baratos em mercados.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+* Ajudar o consumidor a reduzir as despesas mostrando os melhores preços.
+
+* Conceder visibilidade aos minimercados.
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O que impulsionou esse trabalho foi a instabilidade da economia local e internacional sobre os preços de produtos em 
+supermercados apresentando uma ferramenta em modelo web para a melhor busca dos produtos desejados para consumidores 
+que desejam controlar melhor suas finanças com base nas nossas pesquisas
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A Melhor Preço busca atender uma grande gama de clientes que buscam economia no seu dia-a-dia, a partir de pesquisas realizadas foram subdividos em três grupos, os que priorizam o tempo, mas não perdem uma promoção, os que priorizam o preço, e os que priorizam uma mesclagem de ambos em conjunto com maior qualidade de atendimento e produtos ofertados. 
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
+GRUPO 1 - Tempo X Preço:
+* Buscam mercados que possuem menor tempo de fila;
+* Desejam saber da promoção antes de ir;
+* Querem mercados proximos de casa ou trabalho;
+
+GRUPO 2 - Preço:
+* Deseja receber com frequência notificação de ofertas;
+* Saber do melhor preço da região;
+* Ter noção de sua econômia final;
+
+GRUPO 3 - Qualidade e Atendimento:
+* Desejam saber da qualidade de atendimento do mercado;
+* Velocidade no atendimento;
+* Menor Distância/ Menor Preço;
+
+Todos os três grupos acima possuem membros de classes distintas, e individuos que possuem uma maior dificuldade no momento de organizar suas compras, nesse sentido a Melhor Preço busca com seu sistema criar um mecanismo de facil interação, onde o usuário possa se sentir livre para se organizar quanto as suas compras, mesmo sem nunca ter realizado uma lista de compras.
+
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+A partir de estudos e pesquisas realizadas junto ao publico alvo e pesquisas mercadologicas e economicas do país, a Melhor Preço se posiciona como uma plataforma destinada a informa e auxilar seus usuários a encontrar os menores preços e ofertas em mercados proximos de sua região, afim de garantir melhores condições de compra e economia no dia-a-dia.  
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+**MARCIA**
 
+![Marcia](imaages/../images/personas/Marcia.jpg)
 
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
+**RUBENS**
+
+![Rubbens](imaages/../images/personas/Rubens.jpg)
+
+**FELIPE**
+
+![Felipe](imaages/../images/personas/Felipe.jpg)
+
+**GISELLE**
+
+![Gisele](imaages/../images/personas/Gisele.jpg)
+
 
 
 ## Histórias de Usuários
@@ -164,19 +134,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+|Marcia  | Encontrar os melhores preços em supermercados           | Economizar dinheiro               |
+|Marcia | Passar o minimo de tempo fazendo compras | Tomar conta dos filhos |
+|Marcia | Saber se um mercado tem determinado produto | Para evitar de ir e perder a viagem |
+|Rubens | Ter melhor noção dos preços ao fazer compras                 | Adquirir apartamento proprio |
+|Rubens | Poder criar e compartilhar uma lista de compras com a familia  | Manter organizada as compras e saber o que está faltando |
+|Felipe | Saber melhores ofertas na região | Conquistar indepêndencia financeira |
+|Felipe | Saber a avaliação e distância do mercado | Poder assegurar a qualidade e o tempo que será gasto |
+|Giselle | Conseguir ter mais poder de compra | Economizar seu dinheiro para investir |
+|Giselle | Saber de ofertas sempre que surgir | Poder aproveitar as ofertas e comprar mais barato |
 
 ## Requisitos
 
@@ -186,8 +152,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que usuários tenham listas de compras cadastradas | ALTA |
+|RF-002| Permitir que usuários visualizem melhores opções de compra das listas cadastradas | ALTA |
+|RF-003| Permitir que usuários auxiliem na atualização dos dados de preço | ALTA |
+|RF-004| Permitir que usuários avaliem os mercados | MÉDIA |
+|RF-005| Permitir que usuários saibam dos preços em tempo real | MÉDIA |
+|RF-006| Permitir que usuários realizem filtragem de mercados em relação a tempo, preço e avaliação geral | MÉDIA | 
+|RF-007| Notificar usuario em relação a ofertas | BAIXA | 
+|RF-008| Permitir usuário a verificar se mercado trabalha com produto especifico   | BAIXA |
+|RF-009| Permitir que usuários compartilhem em familia sua lista | BAIXA |
+|RF-010| Permitir que usuários regatem ofertas no app | BAIXA |
 
 
 ### Requisitos não Funcionais
@@ -196,28 +170,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 
 ## Restrições
 
@@ -228,162 +180,128 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+**LOGIN/CADASTRO**
+A tela de login ou cadastrado busca reter o usuário para a plataforma e facilitar sua ultilização dos recursos.  Por isso, ela foi projetada para ser rapida e simples. Dessa forma os usuários que pelo cadastro optarem conseguirão acesso a recursos que o auxiliarão no dia-a-dia, como saber dos preços da região e criar listas.
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+**INICIO**
+A tela inicial deve ser de facil entendimento e bastante informativa. Por isso, foi projetada para conter um mapa da região e os preços em ofertas nos mercados podendo ser filtrada por caracteriscas escolhidas pelo usuario, além de fornecer acesso a telas de listas;
+
+**LISTA**
+A tela de listas visa entrega ao usuário uma facilidade no momento de realizar compras e saber o seu poder de economia no dia a dia. Nela o usuario cadastrará seus itens a serem comprados e poderá compartilhar com outros membros da familia.
+
+**ENVIAR NOTA**
+A tela de enviar nota busca receber do usuario sua nota fiscal para alimentar o banco de dados com os valores atualizados, a fim de auxiliar toda a rede.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+**DESKTOP**
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
+![USERFLOWDESKTOP](imaages/../images/UserFlow/UserFlowDesktop%20(2).png)
 >
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+**MOBILE**
 
+![USERFLOWMOBILE](imaages/../images/UserFlow/UserFlowMobile.png)
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+**LOGIN**</br>
+Tela de Login para acessar contas cadastradas.</br>
+![LOGIN](imaages/../images/Wireframes%20e%20Layout/Login.png)
+>
+**CADASTRO**</br>
+Tela de Cadastro para novos usuários.</br>
+![CADASTRO](imaages/../images/Wireframes%20e%20Layout/Cadastro.png)
+>
+**PESQUISA PREÇOS/ INCIO**</br>
+Tela inicial do site, onde os usuários poderão verificar os preços de itens selecionados e mercados mais proximos, além de promoções</br>
+![INICIO](imaages/../images/Wireframes%20e%20Layout/PesquisarPre%C3%A7o.png)
+>
+**LISTAS**</br>
+Tela de listas criadas, onde pode ser verificada os melhores preços para cada item já presente na lista em mercados selecionados.</br>
+![INICIO](imaages/../images/Wireframes%20e%20Layout/Listas.png)
+>
+**CRIAR LISTA**</br>
+Tela de criar lista, oferece a possibilidade de criar uma nova lista.</br>
+![CRIAR LISTA](imaages/../images/Wireframes%20e%20Layout/CriarLista.png)
+>
+**SOBRE**</br>
+Tela sobre, tela explicativa sobre quem é a Melhor Preço e qual sua finalidade no mercado.</br>
+![SOBRE](imaages/../images/Wireframes%20e%20Layout/Sobre.png)
+>
+**Enviar Nota**</br>
+Tela Enviar Nota, oferece ao usuario a possibilidade de cooperar com a rede, alimentando o nosso banco de dados, a partir da nota fiscal emitida.</br>
+![ENVIAR NOTA](imaages/../images/Wireframes%20e%20Layout/EnviarNota.png)
+>
+**PERFIL**</br>
+Tela Perfil, nessa o usuario pode verificar todas informações que temos acesso, além de personalizar sua experiência.</br>
+![ENVIAR NOTA](imaages/../images/Wireframes%20e%20Layout/Perfil.png)
 
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+A medologia adotada pelo grupo foi a SCRUM, nela todos os membros ficarão responsáveis por determinada parte das tarefas a serem entregues durante as sprints.
+Serão ultilizadas diversas ferramentas de comunicação e trabalho em equipe online, senda as principais Miro, Figma, Trello, Discord, Whatsapp. 
+Durante as sprints serão realizadas reuniões frequentes a cada três dias para definir o rumo do projeto, as prioridades e dificuldades em sua realização, não se limitando a apenas esses encontros.
+Como mecanismo de versionamento de codigo e controle de versão será ultilizado o GitHUB, onde contará com a divisão das branchs por entrega de sprint, uma de suporte a bugs e falhas, outra desenvolvimento e a master.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A divisão de papéis realizada pelo grupo se dividiu do seguinte modo, mas não se limitando a tais:</br>
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+
+**Sprint 1 | 08/08/2022 - 25/09/2022**
+|  Datas  | Resumo Atividades  | Responsavel | Papel Desempenhando |
+|------|-----------------------------------------|----|----| 
+|19/09 - 25/09| Relatorio/ Desing Thinking/ Desing Site  | Henrique Temponi Maia |  Desenvolvedor |
+|19/09 - 25/09| Desing Thinking/ Desing Interativo/ Suporte | Jerson Vitor de Paula Gomes | Scrum Master |
+|19/09 - 25/09| Desing Thinking/ Personas/ Ideação | João Paulo de Castro Markiewicz | Desenvolvedor |
+|19/09 - 25/09| Desing Thinking/ Apresentação/ Ideação | Lucas Randazzo | Desenvolvedor |
+|19/09 - 25/09| Relatorio/ Wireframes/ Suporte | Wallace Freitas Oliveira | Desenvolvedor |
+
+**Sprint 2 | 26/09/2022 - 16/10/2022**
+|  Datas  | Resumo Atividades  | Responsavel | Papel Desempenhando |
+|------|-----------------------------------------|----|----| 
+|26/09 - 16/10| ------------------  | Henrique Temponi Maia |  Desenvolvedor |
+|26/09 - 16/10| ------------------ | Jerson Vitor de Paula Gomes | Scrum Master |
+|26/09 - 16/10| ------------------ | João Paulo de Castro Markiewicz | Desenvolvedor |
+|26/09 - 16/10| ------------------ | Lucas Randazzo | Desenvolvedor |
+|26/09 - 16/10| ------------------ | Wallace Freitas Oliveira | Desenvolvedor |
 
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVPWa6Bzo=/?share_link_id=631085451992 | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-01-precos-em-supermercados | 
+|Hospedagem do site | - | - | 
+|Protótipo Interativo | Figma | https://www.figma.com/proto/pNMEjs30f7pcrKevjxIjK0/Pre%C3%A7os-de-supermercados?node-id=1%3A15&scaling=min-zoom&page-id=1%3A7&starting-point-node-id=1%3A15 |
+|Divisão de Tarefas | Trello | https://trello.com/b/WQFgiD5G/melhor-pre%C3%A7o |
+|Ferramenta de diagramação | Figma | https://www.figma.com |
+|Editor de código | Visual Studio Code | https://code.visualstudio.com/ |
+|Ferramenta de comunicação | Whatsapp | https://www.whatsapp.com/ |
+|Ferramenta de comunicação | Discord | https://discord.com/ |
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+O ambiente miro foi escolhido já que foi disponibilizado um template e pela a facilidade de ser
+utilizado e pela a capacidade de editar simultanimante. Juntamente com o figma pela a capacidade de edição simultania
+e pela a facilidade de criar novas telas. Já o editor de código foi escolhido por todos os membros do grupo
+já ter experiencia com a ferramenta e por possuir integração com o sistema de versão.
+
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O projeto segue a seguinte convenção para o nome de branches:
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+- `master`: Versão testada e estável da pagina web
+- `sprint`: Versão para a implementações de melhorias e novas funções
+- `dev`: Versão para testes e funcionalidades a serem introduzidas
+
+Sobre à gerência de issues, o projeto adota a seguinte convenção para as etiquetasÇ
+
+- `bugfix`: Funcionalidade com problemas
+- `testing`: Teste de funcionalidades
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
