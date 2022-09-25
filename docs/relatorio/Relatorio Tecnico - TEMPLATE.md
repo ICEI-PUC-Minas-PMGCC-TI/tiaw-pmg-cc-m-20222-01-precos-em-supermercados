@@ -198,7 +198,7 @@ A tela de enviar nota busca receber do usuario sua nota fiscal para alimentar o 
 
 **DESKTOP**
 
-![USERFLOWDESKTOP](imaages/../images/UserFlow/UserFlowDesktop.png)
+![USERFLOWDESKTOP](imaages/../images/UserFlow/UserFlowDesktop%20(2).png)
 >
 **MOBILE**
 
