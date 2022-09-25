@@ -277,7 +277,7 @@ Tela Perfil, nessa o usuario pode verificar todas informações que temos acesso
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVPWa6Bzo=/?share_link_id=631085451992 | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-01-precos-em-supermercados | 
 |Hospedagem do site | - | - | 
-|Protótipo Interativo | Figma | - |
+|Protótipo Interativo | Figma | https://www.figma.com/proto/pNMEjs30f7pcrKevjxIjK0/Pre%C3%A7os-de-supermercados?node-id=1%3A15&scaling=min-zoom&page-id=1%3A7&starting-point-node-id=1%3A15 |
 |Ferramenta de diagramação | Figma | https://www.figma.com |
 |Editor de código | Visual Studio Code | https://code.visualstudio.com/ |
 |Ferramenta de comunicação | Whatsapp | https://www.whatsapp.com/ |
