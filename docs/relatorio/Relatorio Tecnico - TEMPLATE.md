@@ -294,7 +294,7 @@ A divisão de papéis realizada pelo grupo se dividiu do seguinte modo, mas não
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVPWa6Bzo=/?share_link_id=631085451992 | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-01-precos-em-supermercados | 
-|Hospedagem do site | - | - | 
+|Hospedagem do site | replit | https://replit.com | 
 |Protótipo Interativo | Figma | https://www.figma.com/proto/pNMEjs30f7pcrKevjxIjK0/Pre%C3%A7os-de-supermercados?node-id=1%3A15&scaling=min-zoom&page-id=1%3A7&starting-point-node-id=1%3A15 |
 |Divisão de Tarefas | Trello | https://trello.com/b/WQFgiD5G/melhor-pre%C3%A7o |
 |Ferramenta de diagramação | Figma | https://www.figma.com |
