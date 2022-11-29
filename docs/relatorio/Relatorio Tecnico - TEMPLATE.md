@@ -244,7 +244,7 @@ Tela Perfil, nessa o usuario pode verificar todas informações que temos acesso
 A medologia adotada pelo grupo foi a SCRUM, nela todos os membros ficarão responsáveis por determinada parte das tarefas a serem entregues durante as sprints.
 Serão ultilizadas diversas ferramentas de comunicação e trabalho em equipe online, senda as principais Miro, Figma, Trello, Discord, Whatsapp. 
 Durante as sprints serão realizadas reuniões frequentes a cada três dias para definir o rumo do projeto, as prioridades e dificuldades em sua realização, não se limitando a apenas esses encontros.
-Como mecanismo de versionamento de codigo e controle de versão será ultilizado o GitHUB, onde contará com a divisão das branchs por entrega de sprint, uma de suporte a bugs e falhas, outra desenvolvimento e a master.
+Como mecanismo de versionamento de codigo e controle de versão será ultilizado o GitHub, onde contará com a divisão das branchs por entrega de sprint, uma de suporte a bugs e falhas, outra desenvolvimento e a master. E google drive para o compartilhamento de arquivos de desenvolvimento.
 
 ## Divisão de Papéis
 
@@ -263,11 +263,29 @@ A divisão de papéis realizada pelo grupo se dividiu do seguinte modo, mas não
 **Sprint 2 | 26/09/2022 - 16/10/2022**
 |  Datas  | Resumo Atividades  | Responsavel | Papel Desempenhando |
 |------|-----------------------------------------|----|----| 
-|26/09 - 16/10| ------------------  | Henrique Temponi Maia |  Desenvolvedor |
-|26/09 - 16/10| ------------------ | Jerson Vitor de Paula Gomes | Scrum Master |
-|26/09 - 16/10| ------------------ | João Paulo de Castro Markiewicz | Desenvolvedor |
-|26/09 - 16/10| ------------------ | Lucas Randazzo | Desenvolvedor |
-|26/09 - 16/10| ------------------ | Wallace Freitas Oliveira | Desenvolvedor |
+|26/09 - 16/10| Comparação de preços entre supermercados  | Henrique Temponi Maia |  Desenvolvedor |
+|26/09 - 16/10| Apresentação de listas do usuário na página | Jerson Vitor de Paula Gomes | Scrum Master |
+|26/09 - 16/10| Cadastrar produtos | João Paulo de Castro Markiewicz | Desenvolvedor |
+|26/09 - 16/10| Cadastrar mercados | Lucas Randazzo | Desenvolvedor |
+|26/09 - 16/10| Cadastrar a lista de compras | Wallace Freitas Oliveira | Desenvolvedor |
+
+**Sprint 3 | 17/10/2022 - 17/11/2022**
+|  Datas  | Resumo Atividades  | Responsavel | Papel Desempenhando |
+|------|-----------------------------------------|----|----| 
+|26/09 - 16/10| Cadastro de promoções  | Henrique Temponi Maia |  Desenvolvedor |
+|26/09 - 16/10| Associar as comparações das listas com o mapa | Jerson Vitor de Paula Gomes | Scrum Master |
+|26/09 - 16/10| Apresentação da Tela inicial | João Paulo de Castro Markiewicz | Desenvolvedor |
+|26/09 - 16/10| Alteração de perfil | Lucas Randazzo | Desenvolvedor |
+|26/09 - 16/10| Pesquisa de mercados e produtos | Wallace Freitas Oliveira | Desenvolvedor |
+
+**Sprint 4 | 18/11/2022 - 5/12/2022**
+|  Datas  | Resumo Atividades  | Responsavel | Papel Desempenhando |
+|------|-----------------------------------------|----|----| 
+|26/09 - 16/10| Mostrar promoções na tela inicial e organizar Github  | Henrique Temponi Maia |  Desenvolvedor |
+|26/09 - 16/10| Implementar Reponsividdade | Jerson Vitor de Paula Gomes | Scrum Master |
+|26/09 - 16/10| Gravação do video  | João Paulo de Castro Markiewicz | Desenvolvedor |
+|26/09 - 16/10| Montagen da apresentação  | Lucas Randazzo | Desenvolvedor |
+|26/09 - 16/10| Conexão entre paginas | Wallace Freitas Oliveira | Desenvolvedor |
 
 
 ## Ferramentas
