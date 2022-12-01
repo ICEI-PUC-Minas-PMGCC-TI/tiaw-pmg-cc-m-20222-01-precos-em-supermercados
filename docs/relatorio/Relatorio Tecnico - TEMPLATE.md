@@ -326,20 +326,27 @@ Sobre à gerência de issues, o projeto adota a seguinte convenção para as eti
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+| Tipo | Nome |
+|------|------|
+|Linguagem de marcação | HTML |
+|Linguagem de estilo | CSS |
+|Linguagem de programação | JavaScript |
+| Framework | Bootstrap |
+| API | ??? |
+| IDE | Visual Studio Code |
+| Bibliotecas | Node ??? |
+| Versionamento de codigo | Git |
+| Hopesdagem do site | Replit |
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+
 > Apresente também uma figura explicando como as tecnologias estão
 > relacionadas ou como uma interação do usuário com o sistema vai ser
 > conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
+
+
+
 > Inclua os diagramas de User Flow, esboços criados pelo grupo
 > (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
 > item textualmente comentando e complementando o que está apresentado
