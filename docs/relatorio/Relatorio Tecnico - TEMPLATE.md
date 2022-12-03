@@ -338,14 +338,13 @@ Sobre à gerência de issues, o projeto adota a seguinte convenção para as eti
 | Framework | [Bootstrap](https://getbootstrap.com/)<br>[Node](https://nodejs.org/en/) |
 | API | [Openlayers (js)](https://openlayers.org/) |
 | IDE | Visual Studio Code |
-| Bibliotecas |  |
 | Versionamento de codigo | Git |
 | Hopesdagem do site | [Repli](https://replit.com/) |
 
 
 ### Interação usuário
 
-<!-- ![interacao-usuario](images/aquitetura/projeto-solucao-Diagrama-usuario.png) -->
+![interacao-usuario](images/aquitetura/projeto-solucao-Diagrama-usuario.png)
 
 A figura acima representa uma breve rota sendo utilizada pelo usuário, primeiro fazendo uma requisição para o site que 
 está sendo hospedado na plataforma [Replit](https://replit.com/) chamando a pagina principal da pagina web onde o 
@@ -390,19 +389,34 @@ A página sobre, conta um pouco mais como funciona e o que é a aplicação como
 “Enviar nota”. Essa que seria um local para o usuário fazer upload de notas fiscais para atualizar os preços no 
 aplicativo. 
 
-<!-- ![user-flow](images/UserFlow/UserFlowDesktop%20(2).png) -->
+![user-flow](images/UserFlow/UserFlowDesktop%20(2).png)
 
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+![arquitetura-solucao](images/aquitetura/projeto-solucao-aquitetura-solucao.png)
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+A arquitetura da solução foi implementada da seguinte forma, um navegador para renderizar a página web, que em sua vez é um conjunto de arquivos contendo HTML, CSS e JS, com frameworks de CSS para ajudar no layout da página web fazendo requisições por meio da internet e uma dependência do framework Node.js chamada openlayer, para a ajuda na manipulação dos mapas dentro da aplicação.
+
+Os dados foram armazenados em local storage sendo todos objetos javaScript em diferentes formatos, são eles:  
+- Mercado
+  - Id - o número identificador do mercado.
+  - nomeMercado - nome do mercado.
+  - Endereco - endereço do mercado.
+- Produtos
+  - Id - o número identificador do produto.
+  - nomeProduto - nome do produto.
+  - DescricaoProduto - breve descricao do produto.
+- estoque - O estoque é composto de uma relação entre o produto de mercado, guardando somente o id de um preço e um mercado e o preço do produto naquele mercado.
+  - idMercado - id do mercado.
+  - idProduto - id do produto.
+  - Preco - preço do produto no mercado.
+- Clientes
+  - nomeUsuario - nome do usuário.
+  - Idade - idade do usuário.
+  - endereco - endereço do usuário.
+  - Listas - Array de id de produtos.
+
 
 
 # Avaliação da Aplicação
@@ -448,6 +462,14 @@ aplicativo.
 
 
 # Referências
+
+Bootstrap
+onpenlayer
+ndm
+node js
+replit
+
+
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
