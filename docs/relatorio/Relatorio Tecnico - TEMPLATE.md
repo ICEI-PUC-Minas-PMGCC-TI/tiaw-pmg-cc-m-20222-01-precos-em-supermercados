@@ -345,6 +345,16 @@ Sobre à gerência de issues, o projeto adota a seguinte convenção para as eti
 > relacionadas ou como uma interação do usuário com o sistema vai ser
 > conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
+![interacao-usuario](images/aquitetura/projeto-solucao-Diagrama-usuario.png)
+
+A figura acima representa uma breve rota sendo utilizada pelo usuário, primeiro fazendo uma requisição para o site que 
+está sendo hospedado na plataforma [Replit](https://replit.com/) chamando a pagina principal da pagina web onde o 
+usuario tera varias possibilidades de interagir com a aplicação. Também a página inicial apresentará um API para 
+mostrar a localização dos mercados mais próximos do usuário, além de apresentar uma lista dinâmica feita com Javascript
+ para mostrar os produtos que o usuário possa ter em determinado momento.
+
+A pagina terá elementos e atributos de css do framework [Bootstrap](https://getbootstrap.com/) para ajudar a formatar a
+página web e todas as página subsequentes
 
 
 > Inclua os diagramas de User Flow, esboços criados pelo grupo
