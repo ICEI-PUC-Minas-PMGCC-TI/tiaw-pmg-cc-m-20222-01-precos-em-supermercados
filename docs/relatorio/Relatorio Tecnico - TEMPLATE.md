@@ -44,6 +44,8 @@ Os membros do grupo são:
 - [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+    - [Interação usuário](#interação-usuário)
+    - [User flow](#user-flow-1)
   - [Arquitetura da solução](#arquitetura-da-solução)
 - [Avaliação da Aplicação](#avaliação-da-aplicação)
   - [Plano de Testes](#plano-de-testes)
@@ -330,37 +332,66 @@ Sobre à gerência de issues, o projeto adota a seguinte convenção para as eti
 
 | Tipo | Nome |
 |------|------|
-|Linguagem de marcação | HTML |
-|Linguagem de estilo | CSS |
-|Linguagem de programação | JavaScript |
-| Framework | Bootstrap |
-| API | ??? |
+| Linguagem de marcação | HTML |
+| Linguagem de estilo | CSS |
+| Linguagem de programação | JavaScript |
+| Framework | [Bootstrap](https://getbootstrap.com/)<br>[Node](https://nodejs.org/en/) |
+| API | [Openlayers (js)](https://openlayers.org/) |
 | IDE | Visual Studio Code |
-| Bibliotecas | Node ??? |
+| Bibliotecas |  |
 | Versionamento de codigo | Git |
-| Hopesdagem do site | Replit |
+| Hopesdagem do site | [Repli](https://replit.com/) |
 
 
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
+### Interação usuário
 
-![interacao-usuario](images/aquitetura/projeto-solucao-Diagrama-usuario.png)
+<!-- ![interacao-usuario](images/aquitetura/projeto-solucao-Diagrama-usuario.png) -->
 
 A figura acima representa uma breve rota sendo utilizada pelo usuário, primeiro fazendo uma requisição para o site que 
 está sendo hospedado na plataforma [Replit](https://replit.com/) chamando a pagina principal da pagina web onde o 
-usuario tera varias possibilidades de interagir com a aplicação. Também a página inicial apresentará um API para 
-mostrar a localização dos mercados mais próximos do usuário, além de apresentar uma lista dinâmica feita com Javascript
- para mostrar os produtos que o usuário possa ter em determinado momento.
+usuario tera varias possibilidades de interagir com a aplicação. Também a página inicial apresentará um API para mostrar
+a localização dos mercados mais próximos do usuário provido pela a API da [OpenLayers](https://openlayers.org/), 
+além de apresentar uma lista dinâmica feita com Javascript puro e uma parte em [node](https://nodejs.org/en/) para 
+mostrar os produtos que o usuário possa ter em determinado momento e mostrar a posição dos mercados no mapa. A página 
+terá elementos e atributos de css do framework [Bootstrap](https://getbootstrap.com/) para ajudar a formatar a página 
+web e todas as página subsequentes
 
-A pagina terá elementos e atributos de css do framework [Bootstrap](https://getbootstrap.com/) para ajudar a formatar a
-página web e todas as página subsequentes
 
+### User flow
 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+Como o user flow demonstra a página inicial será a página de login, sendo disponibilizado a opção de fazer um novo 
+cadastro ou de entrar com um usuário já existente. Depois de ter feito o cadastro e o login, o usuário será 
+redirecionado para a tela “Home” onde nela terá vários componentes.
+
+A página “Home” apresenta um mapa interativo com a possibilidade de pesquisar vários produtos por filtros diferentes e 
+escolhendo um mercado de escolha do usuário. Depois de escolher qual produto ele gostaria de pesquisar, o mapa logo 
+abaixo irá marcar os mercados que atende às condições estabelecidas nos filtros no mapa por um alfinete. E abaixo do 
+mapa terá uma lista de promoções nos mercados cadastrados no banco de dados, o cadastro de promoções ocorre por meio de 
+uma nova tela de uso exclusivo dos administradores.
+
+Na barra de navegação o usuário será apresentado com algumas opções. Sendo elas: visualizar as listas do usuário, uma 
+página de atualizar preços, uma página sobre o projeto em si e um link para o perfil do usuário. A barra de navegação 
+está disponível em todas as telas da aplicação.
+
+Os componentes mais importantes de tela “Lista” são a lista de produtos contendo o preço nos três mercados mais próximos
+e o mapa mostrando a localização de vários mercados perto do usuário. O componente de lista disponibiliza algumas 
+opções, sendo possível filtrar a lista mostrando as melhores opções de mercado dentre os três em um dado filtro. 
+É possível filtrar por preço, distância e preferência, modificando a lista de acordo com qual filtro está ativo. 
+Também há uma barra lateral para escolher diferentes listas com produtos diferentes. Com um botão para criar uma nova 
+lista.
+
+Ao clicar no botão “Criar lista” a página “Adicionar lista” será renderizada, podendo ter a opção de atribuir um 
+novo nome para a lista, os mercados favoritos a partir de uma lista já existente de mercados e finalmente a preferência 
+da semana. Depois de concluído o usuário será retornado a página “Lista” com a sua nova lista adicionada a direita da 
+listagem de produtos.
+
+A página de “Perfil” onde um usuário pode mudar as suas configurações como: Nome, data de nascimento e endereço. 
+A página sobre, conta um pouco mais como funciona e o que é a aplicação como um todo e por último a página de 
+“Enviar nota”. Essa que seria um local para o usuário fazer upload de notas fiscais para atualizar os preços no 
+aplicativo. 
+
+<!-- ![user-flow](images/UserFlow/UserFlowDesktop%20(2).png) -->
+
 
 ## Arquitetura da solução
 
