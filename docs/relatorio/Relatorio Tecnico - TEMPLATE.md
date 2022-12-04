@@ -137,15 +137,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Marcia  | Encontrar os melhores preços em supermercados           | Economizar dinheiro               |
-|Marcia | Passar o minimo de tempo fazendo compras | Tomar conta dos filhos |
-|Marcia | Saber se um mercado tem determinado produto | Para evitar de ir e perder a viagem |
-|Rubens | Ter melhor noção dos preços ao fazer compras                 | Adquirir apartamento proprio |
+|Marcia  | Encontrar os melhores preços em supermercados sem sair de casa | Poder conversar e ligar para seus filhos |
+|Marcia | Possibilidade de montar uma lista organizada com produtos desejados  | Não perder um capítulo da sua série de televisão |
+|Marcia | Saber se um mercado tem determinado produto | Evitar de gastar com transporte desnecessário |
+|Rubens | Ter melhor noção dos preços ao fazer compras                 | Economizar para poder comprar uma casa propria com mais conforto para sua familia |
 |Rubens | Poder criar e compartilhar uma lista de compras com a familia  | Manter organizada as compras e saber o que está faltando |
-|Felipe | Saber melhores ofertas na região | Conquistar indepêndencia financeira |
+|Felipe | Saber melhores ofertas na região | Usar o tempo que iria gastar procurando os melhores preços estudando para avaliações |
 |Felipe | Saber a avaliação e distância do mercado | Poder assegurar a qualidade e o tempo que será gasto |
-|Giselle | Conseguir ter mais poder de compra | Economizar seu dinheiro para investir |
-|Giselle | Saber de ofertas sempre que surgir | Poder aproveitar as ofertas e comprar mais barato |
+|Giselle | Conseguir ter mais poder de compra | Poder enconomizar para viajar para museus nacionais e internacionais |
+|Giselle | Saber de ofertas sempre que surgir | Fazer uma lista de compras em mercados perto antes de sair de casa  |
 
 ## Requisitos
 
@@ -337,7 +337,7 @@ Sobre à gerência de issues, o projeto adota a seguinte convenção para as eti
 | Linguagem de estilo | CSS |
 | Linguagem de programação | JavaScript |
 | Framework | [Bootstrap](https://getbootstrap.com/)<br>[Node](https://nodejs.org/en/) |
-| API | [Openlayers (js)](https://openlayers.org/) |
+| API | [Openlayers](https://openlayers.org/) |
 | IDE | Visual Studio Code |
 | Versionamento de codigo | Git |
 | Hopesdagem do site | [Repli](https://replit.com/) |
@@ -422,38 +422,30 @@ Os dados foram armazenados em local storage sendo todos objetos javaScript em di
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Para testar a aplicação web foi selecionado o cenário de um novo usuário usando a aplicação pela a primeira vez, 
+criando uma nova lista e cadastrando produtos a mesma seguintes destes passando pela a maioria dos requisitos, 
+seguindo um novo usuário pela a criação de listas usando as diferentes funções e a pesquisa de produtos no mapa.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+| ID | CENÁRIO | REQUISITO RELACIONADO |
+|----|-|---------------------------------|
+| 1 | `Criar uma nova lista` <br><br> Passo a passo: <br> `1.` Fazer login <br> `2.` Clicar no dropdown na barra de navegação "Cadastrar"  <br> `3.` Clicar "Cadastrar lista" <br> `4.` Preencher os campos <br> `5.` Clicar em continue <br><br> Após clicar no botão o usuário sera redirecionado para uma nova página com a lista nova sem produtos. | RF-001 |
+| 1.1 | `Adicionar produtos na lista` <br><br> `1.` Clicar no botão com o símbolo de adicionar <br> `2.` Pesquisar o produto <br> `3.` Clicar no botão ao lado do campo de pesquisa <br> `4.` Depois de adicionado os produtos desejados clicar em "Salvar Lista" <br><br> Após salvar a lista retornar para a página principal com a lista. | RF-007 |
+| 2 | `Visualizar melhores preços` <br><br> Passo a passo: <br> `1.` Fazer login <br> `2.` Na página home será apresentado o mapa e a lista do usuário <br> `3.` Selecionar o filtro para pesquisa de produtos <br><br> Os produtos cadastrados na lista irão ser mostrados no mapa abaixo de acordo com o filtro, justamente com uma lista com o somatório dos preços em mercados mais pertos. Os melhores mercados selecionados serão marcados por um ícone no mapa abaixo.| RF-002<br>RF-005<br>RF-008 |
+| 3 | `Atualizar preços de produtos existentes` <br><br> Passo a passo: <br> `1.` Fazer login <br> `2.` Clicar no dropdown na barra de navegação "Cadastrar" <br> `3.` Clicar "Cadastrar nota" <br> `4.` Pesquisar o mercado que gostaria de alterar o preço de um produto. Caso não tenha o produto ou o mercado desejado, veja plano de teste ID: 4 <br> `5.` Inserir o preço do produto atualizado <br> `6.` Quando finalizado clicar em "Salvar Nota Fiscal" <br><br> Após clicado o usuário atualiza os dados no JSON que está guardando os dados, possibilitando que todos os usuários possam ter os valores mais atualizados possíveis| RF-003<br>RF-004 |
+| 4 | `Cadastrar novos produtos e mercados` <br><br> Passo a passo: <br> `1.` Fazer login <br> `2.` Clicar no dropdown na barra de navegação "Cadastrar" <br> `3.` Clicar "Cadastrar nota" <br> `4.` Com a barra de pesquisa de mercado vazia ou com um resultado não encontrado, clique em "Clique Aqui" <br> `5.` O usuário será redirecionado para uma página correspondente para adicionar um novo mercado ou produto <br> `6.` Preencher os campos da página <br> `7.` Clicar em salvar <br><br> Após inseridos os valores o usuário será redirecionado para a página anterior, podendo resumir atualizando o preço dos produtos  | RF-006 |
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
 ## Ferramentas de Testes (Opcional)
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+Nenhuma ferramenta de teste foi utilizada.
 
 ## Registros de Testes
 
+
+
+api e' muiro pesado pelo fato de fazer muitas requisisoes para poder colocar no mapa
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
