@@ -337,7 +337,7 @@ Sobre à gerência de issues, o projeto adota a seguinte convenção para as eti
 | Linguagem de estilo | CSS |
 | Linguagem de programação | JavaScript |
 | Framework | [Bootstrap](https://getbootstrap.com/)<br>[Node](https://nodejs.org/en/) |
-| API | [Openlayers](https://openlayers.org/) |
+| Biblioteca | [Openlayers](https://openlayers.org/)<br>[Jquery](https://jquery.com/) |
 | IDE | Visual Studio Code |
 | Versionamento de codigo | Git |
 | Hopesdagem do site | [Repli](https://replit.com/) |
