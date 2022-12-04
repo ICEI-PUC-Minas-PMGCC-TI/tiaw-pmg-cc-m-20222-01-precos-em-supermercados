@@ -81,9 +81,10 @@ Focando nos seguintes objetivos:
 
 ## Justificativa
 
-O que impulsionou esse trabalho foi a instabilidade da economia local e internacional sobre os preços de produtos em 
-supermercados apresentando uma ferramenta em modelo web para a melhor busca dos produtos desejados para consumidores 
-que desejam controlar melhor suas finanças com base nas nossas pesquisas
+Visto o problema apresentado acima, ter uma ferramenta que possa auxiliar no dia-a-dia do consumidor nas suas compras 
+diárias deixa de ser apenas algo diferencial e vira uma necessidade para poder sobreviver em um cenário de altas 
+inflações e incertezas. Logo essa solução apresenta umas das possíveis formas de ter mais confiança na hora da compra.
+
 
 ## Público-Alvo
 
