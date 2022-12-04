@@ -443,13 +443,15 @@ Nenhuma ferramenta de teste foi utilizada.
 
 ## Registros de Testes
 
-Em geral os resultados dos testes foram satisfatórios, retornando os resultados esperados na maioria dos casos testados, 
-em especial a possibilidade com layout responsivo na maioria das telas e um bom fluxo entre as telas. A solução pode 
-ser extensível ao ver que pode ser utilizada em qualquer lugar pela a simplicidade de uso. Entretanto, um ponto fraco 
-da aplicação pode ser atribuído ao alto tempo de resposta e ao custo de manipulação da API OpenLayer. Com isto em mente 
-uma das possíveis soluções para resolver o problema seria utilizar outra API para a manipulação de mapas. Outro problema 
-a ser resolvido é o de deixar completamente todas as páginas responsivas. 
-Por meio dos testes foi possível descobrir e consertar vários erros simplesmente por seguir uma predefinida rotina simples. Ja outro 
+Em geral os resultados dos testes foram satisfatórios, mas devido ao curto tempo disponível não foi possível fazer 
+todos os requisitos com perfeição retornando os resultados esperados na maioria dos casos testados, em especial a 
+possibilidade com layout responsivo em todas as telas. A solução pode ser extensível ao ver que pode ser utilizada 
+em qualquer lugar pela a simplicidade de uso. Entretanto, um ponto fraco da aplicação pode ser atribuído ao alto 
+tempo de resposta e ao custo de manipulação da API OpenLayer. Com isto em mente uma das possíveis soluções para 
+resolver o problema seria utilizar outra API para a manipulação de mapas. Outro problema a ser resolvido é o de deixar 
+completamente todas as páginas responsivas. 
+Por meio dos testes foi possível descobrir e consertar vários erros simplesmente por seguir uma predefinida rotina simples.
+
 
 
 
