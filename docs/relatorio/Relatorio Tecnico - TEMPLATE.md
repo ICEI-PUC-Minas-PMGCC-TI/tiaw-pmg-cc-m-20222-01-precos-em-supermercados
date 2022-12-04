@@ -443,17 +443,12 @@ Nenhuma ferramenta de teste foi utilizada.
 
 ## Registros de Testes
 
-
-
-api e' muiro pesado pelo fato de fazer muitas requisisoes para poder colocar no mapa
-dificuldadoe em manipular a API
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+Em geral os resultados dos testes foram satisfatórios, retornando os resultados esperados na maioria dos casos testados,
+em especial a possibilidade com layout responsivo e um bom fluxo entre as telas. A solução pode ser extensível ao ver 
+que pode ser utilizada em qualquer lugar pela a simplicidade de uso. Entretanto, um ponto fraco da aplicação pode ser 
+atribuído ao alto tempo de resposta e ao custo de manipulação da API OpenLayer. Com isto em mente uma das possíveis 
+soluções para resolver o problema seria utilizar outra API para a manipulação de mapas.
+Por meio dos testes foi possível descobrir e consertar vários erros simplesmente por seguir uma predefinida rotina simples.
 
 
 # Referências
