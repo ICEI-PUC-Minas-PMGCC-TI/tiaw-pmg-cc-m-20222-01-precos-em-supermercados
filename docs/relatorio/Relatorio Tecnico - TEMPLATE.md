@@ -446,6 +446,8 @@ Nenhuma ferramenta de teste foi utilizada.
 
 
 api e' muiro pesado pelo fato de fazer muitas requisisoes para poder colocar no mapa
+dificuldadoe em manipular a API
+
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
@@ -456,19 +458,16 @@ api e' muiro pesado pelo fato de fazer muitas requisisoes para poder colocar no 
 
 # Referências
 
-Bootstrap
-onpenlayer
-ndm
-node js
-replit
+STACKOVERFLOW. Disponível em: https://stackoverflow.com/.
 
+BOOTSTRAP. Disponível em: https://getbootstrap.com/docs/5.2/getting-started/introduction/.
 
+OPENLAYER. Disponível em: https://openlayers.org/doc/.
 
-......  COLOQUE AQUI O SEU TEXTO ......
+JUNIOR, Benicio. Tutorial OpenLayers 3. Disponível em: https://www.youtube.com/watch?v=i5myXOGz9X4&list=PLEXRrv2JfdUHMhUfU3yuCob0kC2uew0jx.
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+DEVELOPER NETWORK, Mozzilla. Disponível em: https://developer.mozilla.org/en-US/.
+
+NODE. Disponível em: https://nodejs.org/en/docs/
+
+REPLIT. Disponível em: https://replit.com/
