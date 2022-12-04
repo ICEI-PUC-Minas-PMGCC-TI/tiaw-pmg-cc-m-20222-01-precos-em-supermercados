@@ -458,16 +458,18 @@ dificuldadoe em manipular a API
 
 # Referências
 
-STACKOVERFLOW. Disponível em: https://stackoverflow.com/.
+STACKOVERFLOW. Disponível em: https://stackoverflow.com/
 
-BOOTSTRAP. Disponível em: https://getbootstrap.com/docs/5.2/getting-started/introduction/.
+BOOTSTRAP. Disponível em: https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
-OPENLAYER. Disponível em: https://openlayers.org/doc/.
+OPENLAYER. Disponível em: https://openlayers.org/doc/
 
-JUNIOR, Benicio. Tutorial OpenLayers 3. Disponível em: https://www.youtube.com/watch?v=i5myXOGz9X4&list=PLEXRrv2JfdUHMhUfU3yuCob0kC2uew0jx.
+JUNIOR, Benicio. Tutorial OpenLayers 3. Disponível em: https://www.youtube.com/watch?v=i5myXOGz9X4&list=PLEXRrv2JfdUHMhUfU3yuCob0kC2uew0jx
 
-DEVELOPER NETWORK, Mozzilla. Disponível em: https://developer.mozilla.org/en-US/.
+DEVELOPER NETWORK, Mozzilla. Disponível em: https://developer.mozilla.org/en-US/
 
 NODE. Disponível em: https://nodejs.org/en/docs/
 
 REPLIT. Disponível em: https://replit.com/
+
+JQUERY. Disponível em: https://jquery.com/
