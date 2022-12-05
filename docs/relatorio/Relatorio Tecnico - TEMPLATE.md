@@ -373,25 +373,29 @@ Na barra de navegação o usuário será apresentado com algumas opções. Sendo
 página de atualizar preços, uma página sobre o projeto em si e um link para o perfil do usuário. A barra de navegação 
 está disponível em todas as telas da aplicação.
 
+![home-user-flow](images/UserFlow/home.png)
+
 Os componentes mais importantes de tela “Lista” são a lista de produtos contendo o preço nos três mercados mais próximos
 e o mapa mostrando a localização de vários mercados perto do usuário. O componente de lista disponibiliza algumas 
 opções, sendo possível filtrar a lista mostrando as melhores opções de mercado dentre os três em um dado filtro. 
-É possível filtrar por preço, distância e preferência, modificando a lista de acordo com qual filtro está ativo. 
-Também há uma barra lateral para escolher diferentes listas com produtos diferentes. Com um botão para criar uma nova 
-lista.
+É possível filtrar por preço e preferência, modificando a lista de acordo com qual filtro está ativo. 
+Também há uma aba para escolher diferentes listas com produtos diferentes.
 
 Ao clicar no botão “Criar lista” a página “Adicionar lista” será renderizada, podendo ter a opção de atribuir um 
 novo nome para a lista, os mercados favoritos a partir de uma lista já existente de mercados e finalmente a preferência 
 da semana. Depois de concluído o usuário será retornado a página “Lista” com a sua nova lista adicionada a direita da 
 listagem de produtos.
 
+![lista-user-flow](images/UserFlow/criar-lista.png)
+
 A página de “Perfil” onde um usuário pode mudar as suas configurações como: Nome, data de nascimento e endereço. 
 A página sobre, conta um pouco mais como funciona e o que é a aplicação como um todo e por último a página de 
 “Enviar nota”. Essa que seria um local para o usuário fazer upload de notas fiscais para atualizar os preços no 
 aplicativo. 
 
-![user-flow](images/UserFlow/UserFlowDesktop%20(2).png)
+O user flow completo ira ficar assim:
 
+![user-flow-completo](images/UserFlow/user-flow-updated.png)
 
 ## Arquitetura da solução
 
