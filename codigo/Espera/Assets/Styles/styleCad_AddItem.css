@@ -1,0 +1,202 @@
+body {
+   
+    overflow:auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.main {
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: 35px 35px 70px #7d7d7d, -35px -35px 70px #ffffff;
+}
+
+.imgaux {
+  backdrop-filter: blur(8px) saturate(153%);
+  -webkit-backdrop-filter: blur(8px) saturate(153%);
+  background: linear-gradient(to right, #298b63, #065a4c);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.imgaux img {
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  padding: 20px;
+  max-width: 90%;
+}
+.listaItens h2 {
+  color: #065a4c;
+  padding-top: 20px;
+}
+#titleList {
+  color: #065a4c;
+  font-size: xx-large;
+}
+
+.novoItem,
+.DelItem {
+  background: none;
+  border: none;
+}
+
+.novoItem img,
+.DelItem img {
+  width: 55px;
+}
+
+.modalPesquisaItem {
+
+  width: 40;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  background-color: #dadada;
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #a3a3a3;
+  border-radius: 20px;
+  display: none;
+}
+.itemLista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .itemLista .produto {
+    margin-top: 5px;
+    text-align: left;
+    width: 70%;
+  }
+  .preco:focus,
+  .preco {
+    max-width: 80px;
+    border: 1px solid #065a4c;
+    border-radius: 10px;
+  }
+
+#returnOptions {
+
+    padding-top: 10px;
+    padding-left: 50px;
+    margin: 20px 0px;
+    overflow:auto;
+    height: 150px;
+    
+  }
+  
+  #returnOptions > label {
+    padding-top: 5px;
+    display: block;
+  }
+  #conteudoLista {
+    color: rgb(0, 0, 0);
+    height: 40vh;
+    overflow: scroll;
+    margin-bottom: 30px;
+  }
+  
+  #conteudoLista > h3 {
+    color: #065a4c;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .conteudo {
+    padding: 10px;
+  }
+
+.pesquisa {
+  padding-top: 20px;
+}
+#textPesquisa:focus,
+#textPesquisa{
+    margin-left: 50px;
+    width: 150px;
+  border-radius: 20px 0px 0px 20px;
+  border-left: 1px;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-right: 0ch;
+  border-color: #298b63;
+  border-style: solid;
+}
+.selecionar{
+    background: #065a4c;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 0px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-color: #298b63;
+    border-style: solid;
+    margin-left: -10px;
+  }
+
+#sairModal {
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-left: 5px;
+    background-color: #dadada;
+    color: #065a4c;
+    font-weight: 900;
+  }
+  @media only screen and (orientation:landscape) and (min-width: 992px)and (min-height:676px){
+    .main {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  }
+  
+  @media only screen and (orientation:portrait) and (min-width: 992px){
+    .modalPesquisaItem {
+      top: 50%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+    }
+   
+    .main {
+      margin-top: 20%;
+      margin-bottom: 20%;
+    }
+  }
+  @media screen and  (orientation:portrait) and (min-width: 768px) and (max-width: 991.8px) {
+    .modalPesquisaItem {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .main {
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  }
+  @media screen and (min-width: 0px) and (max-width: 767.8px) {
+    .modalPesquisaItem {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+   
+    .main {
+        margin-top: 10%;
+        
+      }
+   
+  
+    .itemLista .produto {
+        font-size: xx-small;
+      width: 150px;
+      
+    }
+    #conteudoLista {
+       
+        height: 300px;
+    
+      }
+  }
+ 
