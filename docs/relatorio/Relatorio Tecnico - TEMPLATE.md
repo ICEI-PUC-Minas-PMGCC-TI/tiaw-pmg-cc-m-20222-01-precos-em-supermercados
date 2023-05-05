@@ -324,9 +324,6 @@ Sobre à gerência de issues, o projeto adota a seguinte convenção para as eti
 - `bugfix`: Funcionalidade com problemas
 - `testing`: Teste de funcionalidades
 
-# **############## SPRINT 1 ACABA AQUI #############**
-
-
 # Projeto da Solução
 
 ## Tecnologias Utilizadas
@@ -455,8 +452,6 @@ tempo de resposta e ao custo de manipulação da API OpenLayer. Com isto em ment
 resolver o problema seria utilizar outra API para a manipulação de mapas. Outro problema a ser resolvido é o de deixar 
 completamente todas as páginas responsivas. 
 Por meio dos testes foi possível descobrir e consertar vários erros simplesmente por seguir uma predefinida rotina simples.
-
-
 
 
 # Referências
